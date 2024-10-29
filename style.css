@@ -1,0 +1,88 @@
+.container{
+    border:2px solid rgb(155, 155, 155);
+    width:95%;
+    margin: 0px 20px;
+    padding:20px 10px;
+    border-radius: 15px;
+    background-color:rgb(251, 252, 252);
+    font-family:'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+}
+.h1,h2{
+    text-align: center;
+}
+.employee_registration{
+    border:1px solid rgba(47, 153, 240, 0.829);
+    width:95%;
+    margin: 10px;
+    padding:15px 10px;
+    border-radius: 15px;
+    background-color:rgb(218, 236, 249);
+}
+.details{
+    align-items: center;
+    border:1px
+    border-radius 30px;
+    width:97%;
+    height:30px;
+    margin-top:10px;
+    margin-bottom:20px;
+    margin-left:10px;
+
+}
+.names{
+    margin:10px;
+}
+#submit_button{
+    width:97%;
+    height:40px;
+    border-radius : 10px;
+    background-color:rgb(76, 76, 209);
+    color:white;
+}
+#submit_button:hover {
+    background-color: darkblue;
+    color:white;
+}
+.list{
+    border:1px solid rgba(172, 172, 172, 0.829);
+    width:95%;
+    margin: 30px 10px;
+    padding:15px 10px;
+    border-radius: 15px;
+    background-color:rgb(242, 241, 241);
+}
+.Employee_Details{
+    border:1px solid rgba(172, 172, 172, 0.829);
+    width:95%;
+    margin: 30px 10px;
+    padding:15px 10px;
+    border-radius: 15px;
+    background-color:rgb(246, 245, 245);
+}
+.table{
+    width:95%;
+}
+.head{
+    height:50px;
+    border-color:dodgerblue;
+    background-color: dodgerblue;
+    color:white;
+}
+table,td{
+    border-collapse: collapse;
+    text-align: center;
+    border-bottom-style:solid;
+    border-color:white;
+}
+.map{
+    border:1px solid rgba(172, 172, 172, 0.829);
+    width:95%;
+    margin: 30px 10px;
+    border-radius: 15px;
+}
+.iframe{
+    border-radius:20px;
+}
+#location{
+    border-radius: 10px;
+}
