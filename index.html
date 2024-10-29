@@ -1,0 +1,91 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style.css"/>
+    <title>html</title>
+</head>
+<body bgcolor="white">
+   <div class="container">
+    <center><h1>Company Directory Portal </h1></center>
+    <form>
+        <div class="employee_registration">
+            <h2>Employee Registration Form</h2>
+            <strong><label class="names">Full Name:</label></strong>
+            <br>
+            <input class="details" title="Please fill out this field" width="100px" type="text" name="fullname" >
+            <br>
+
+            <strong><label class="names">Email:</label></strong>
+            <br>
+            <input class="details" title="Please fill out this field" type="text" name="email" >
+            <br>
+
+            <strong><label class="names">Department:</label></strong>
+            <br>
+            <select class="details" title="Please fill out this field" name="Department" id="Department">
+                <option value="IT">IT</option>
+                <option value="HR">HR</option>
+                <option value="Finance">Finance</option>
+                <option value="Marketing">Marketing</option>
+            </select>
+            <br>
+
+            <strong><label class="names">Employee id:</label></strong>
+            <br>
+            <input class="details" title="Please fill out this field" type="number" name="employee id" >
+            <br>
+
+            <strong><label class="names">Profile Picture:</label></strong>
+            <br>
+            <input class="details" title="Please fill out this field" type="text" name="profile Picture" >
+            <br>
+
+            <center><strong><input id="submit_button" type="submit" value="Register Employee"></strong></center>
+        </div>
+    </form>
+    <div class="list">
+        <h2>Employee List</h2>
+        <ol type="1">
+            <li><a href="john@example.com">John Doe - john@example.com</a> </li>
+            <br>
+            <li><a href="jane@example.com">Jane Smith - jane@example.com</a> </li>
+            <br>
+        </ol>
+    </div>
+       
+       <div class="Employee_Details">
+        <h2>Employee Details</h2>
+        <table style="width:100%">
+        <thead>
+            <tr>
+            <th class="head">Name</th>
+            <th class="head">Employee ID</th>
+            <th class="head">Department</th>
+            <th class="head">Profile Picture</th>
+        </tr>
+        </thead>
+        <tbody>
+            <tr>
+                <td>John Doe</td>
+                <td>12345</td>
+                <td>IT</td>
+                <td><img src="data:image/png;base64,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" width="80px"></td>
+            </tr>
+            <tr>
+                <td>Jane Smith</td>
+                <td>67890</td>
+                <td>HR</td>
+                <td><img src="data:image/png;base64,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" width="80px"></td>
+            </tr>
+        </tbody>
+       </table> 
+    </div>
+    <div class="map">
+        <h2>Company Location</h2>
+        <center><iframe id="location" src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d43601.18106608245!2d78.37320485155198!3d17.49825102318143!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x3bcb91f3fdf6bde9%3A0x752db86a6ab3be2a!2sInnomatics%20Research%20Labs!5e1!3m2!1sen!2sin!4v1730169192521!5m2!1sen!2sin" width="95%" height="400" style="border:0;" allowfullscreen="" loading="lazy" referrerpolicy="no-referrer-when-downgrade"></iframe></center>
+    </div>
+  </div>
+</body>
+</html>
